@@ -1,0 +1,720 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNldaz6hxTX+LhNHL9vpXOf",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TRKRITHIK/python-Tkinter-project/blob/main/Python%20course%20notes\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "2s=s\n",
+        "Print (2s)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 141
+        },
+        "id": "7hq6-89j7ZHJ",
+        "outputId": "27a68ccd-020d-4aaf-e952-39f1e7d6d445"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "invalid decimal literal (<ipython-input-5-8c80f7a33d8f>, line 1)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-5-8c80f7a33d8f>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    2s=s\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid decimal literal\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "A=10\n",
+        "Print(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 263
+        },
+        "id": "JrP4mRVL73tz",
+        "outputId": "e1321833-b31c-44bf-e9c5-cfa8eb92bd49"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "name 'Print' is not defined",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-3-e13876629903>\u001b[0m in \u001b[0;36m<cell line: 2>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0mA\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;36m10\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0mPrint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0ma\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m: name 'Print' is not defined"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Cars@24= \"Lambo\"\n",
+        "Print(Cars@24)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 159
+        },
+        "id": "_zshsv2w8nEQ",
+        "outputId": "130d56ef-5950-4318-f882-6a6ec45252e1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "cannot assign to expression here. Maybe you meant '==' instead of '='? (<ipython-input-4-1ae555c0fa21>, line 1)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-4-1ae555c0fa21>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    Cars@24= \"Lambo\"\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m cannot assign to expression here. Maybe you meant '==' instead of '='?\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('I love cars','bikes', sep = \" and \", end= '.')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "C5X7FWHp9Xsg",
+        "outputId": "2e5a2566-ed99-4a68-f040-aba8bd7e1765"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I love cars and bikes."
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"The one piece\",\"real\",sep= \" is \", end = '.')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ML-UUd2RHORJ",
+        "outputId": "96291d22-180d-419e-e8b5-4690a45b62ac"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The one piece is real."
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('Merry christmas','happy new year', sep=\" and \", end='.')\n",
+        "print(' The new year starts. ')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "slZwbzNGIlp4",
+        "outputId": "4c0d9d1f-a50c-4a9a-c7ee-6a36eecd064a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Merry christmas and happy new year. The new year starts. \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=input(\"Your name is: \")\n",
+        "print(a)\n",
+        "print(type (a))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ikyKQUstTvVq",
+        "outputId": "f273b291-21b6-423a-e366-1cf0a4567411"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Your name is: Krithik\n",
+            "Krithik\n",
+            "<class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = input(\"Enter something: \")\n",
+        "print(\"Your something is :\", type(a))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ULWYZ8kGVyoW",
+        "outputId": "177421a2-f886-4e91-dbd6-a2e22ae98d52"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter something: Cars\n",
+            "Your something is : <class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = input(\"Enter something: \")\n",
+        "a = int(a)\n",
+        "print(\"Your something is :\", type(a))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ginNNBz6WxRX",
+        "outputId": "00a486f2-4a2b-4778-e1b2-e5b56a7e0dd6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter something: 24\n",
+            "Your something is : <class 'int'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "5/10"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-SeEVgcNX8qq",
+        "outputId": "990c0441-8105-4fcc-e23d-b16fbbf2c650"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "0.5"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 44
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = input(\"Enter first number\")\n",
+        "num2 = input(\"Enter second number\")\n",
+        "print(num1 / num2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 349
+        },
+        "id": "gKCdEbxl0JC-",
+        "outputId": "9cd88db0-af93-47ea-97be-b23c1d92b21a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter first number5\n",
+            "Enter second number0\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "TypeError",
+          "evalue": "unsupported operand type(s) for /: 'str' and 'str'",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-9-397d7d41e464>\u001b[0m in \u001b[0;36m<cell line: 3>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0mnum1\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Enter first number\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0mnum2\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Enter second number\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 3\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mnum1\u001b[0m \u001b[0;34m/\u001b[0m \u001b[0mnum2\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m: unsupported operand type(s) for /: 'str' and 'str'"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "try:\n",
+        "  a = int/0\n",
+        "  print(\"It's possible\")\n",
+        "except:\n",
+        "  print(\"Division by zero is not possible\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cSG_3XWN1kG3",
+        "outputId": "c736e16d-97df-45b7-c751-e2449490977f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Division by zero is not possible\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range (10,20,2):\n",
+        "      print(i)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Y3d4zxKYIt1r",
+        "outputId": "5281a1d3-9eaf-4d35-86a0-becf74674e0e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10\n",
+            "12\n",
+            "14\n",
+            "16\n",
+            "18\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = int(input(\"Enter first number : \"))\n",
+        "num2 = int(input(\"Enter second number : \"))\n",
+        "print(num1 + num2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ga3yJxwygAbH",
+        "outputId": "2aec6a98-4365-46c3-98d2-68f7d8b3a8b2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first number : 5\n",
+            "Enter second number : 4\n",
+            "9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "email = input ('Enter email id:')\n",
+        "for i in email:\n",
+        "  if i == '@':\n",
+        "     print('Valid')\n",
+        "     break\n",
+        "else:\n",
+        "   print('Invalid')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0IsO1cCoEYPm",
+        "outputId": "3ff8b643-ee1b-468a-e159-a068ce989d04"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter email id:ravirajkrithik@gmail.com\n",
+            "Valid\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in 'Naruto':\n",
+        "  if i == 'u':\n",
+        "     print('Yes there is a U present in the string')\n",
+        "  else:\n",
+        "    print('No U is not present in the string')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "m2-dYynrDOr2",
+        "outputId": "7a03eb0c-9365-4f60-d5a0-654483e92ab0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "No U is not present in the string\n",
+            "No U is not present in the string\n",
+            "No U is not present in the string\n",
+            "Yes there is a U present in the string\n",
+            "No U is not present in the string\n",
+            "No U is not present in the string\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = input('Enter mobile number: ')\n",
+        "if len(num) == 10:\n",
+        "   print('Valid')\n",
+        "else:\n",
+        "   print('Invalid')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lMa5x-zpONsW",
+        "outputId": "ba0cc56f-45f6-461e-c5c4-99699d4b1665"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter mobile number: 736274\n",
+            "Invalid\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "rn=np.random.randint(0,10)\n",
+        "guess=int(input('Enter a number: '))\n",
+        "if guess == rn:\n",
+        "  print('You guessed it right !')\n",
+        "else:\n",
+        "  print('Your guess is wrong !')\n",
+        "print(rn)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "c8bUk-T4Ze1L",
+        "outputId": "24231172-4bcd-4dac-ac0f-6fd0120b0f0d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 3\n",
+            "Your guess is wrong !\n",
+            "9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "ran = np.random.randint(0,5)\n",
+        "for i in range (3):\n",
+        "  guess = int(input('Enter your guess: '))\n",
+        "  if guess == ran:\n",
+        "    print('Your guess is correct.')\n",
+        "    break\n",
+        "  else:\n",
+        "    print('Your guess is not correct.')\n",
+        "else:\n",
+        "  print('Game over')\n",
+        "print('The number was:',ran)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3QEM8l1Kfnxh",
+        "outputId": "431ee24f-3b84-448f-b463-26ac65f81251"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your guess: 3\n",
+            "Your guess is not correct.\n",
+            "Enter your guess: 2\n",
+            "Your guess is not correct.\n",
+            "Enter your guess: 1\n",
+            "Your guess is correct.\n",
+            "The number was: 1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "ARKAdTyLJnNk"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def calculator (a, b, operation):\n",
+        "  if operation == 'add':\n",
+        "    return a+b\n",
+        "  elif operation == 'subtract':\n",
+        "    return a-b\n",
+        "  elif operation == 'multiply':\n",
+        "    return a*b\n",
+        "  elif operation == 'division':\n",
+        "    return a/b\n",
+        "  else:\n",
+        "    return('Invalid operation.')\n",
+        "calculator(15,86,\"division\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zcWv3Y2zkL4R",
+        "outputId": "49a618c0-628c-4936-8f10-a25220b94e39"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "0.1744186046511628"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 51
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = input(\"Enter your name : \")\n",
+        "age = input(\"Enter your age : \")\n",
+        "print(f' My name is {name} and I am {age}.')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LEitiD-TLCUZ",
+        "outputId": "a5ea8d04-c12d-41bf-c8c5-7420cb9c1d77"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your name : Krithik \n",
+            "Enter your age : 19\n",
+            " My name is Krithik  and I am 19.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import keyword as k\n",
+        "print(k.kwlist)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "thCfHY_LJqXl",
+        "outputId": "a38b308e-b819-4a3d-eb24-cad601ed9863"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Age = input('Enter your age :')\n",
+        "if Age >= \"18\":\n",
+        "  print('You are eligible.')\n",
+        "else:\n",
+        "  print('you are not eligible')"
+      ],
+      "metadata": {
+        "id": "KXhfp5t2MZUE",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "987e186d-fc9e-49fe-e246-01c8deed2804"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your age :18\n",
+            "You are eligible.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "phone_no = input('Enter phone number :')\n",
+        "if len(phone_no) == 10 and phone_no.isnumeric():\n",
+        " print ('Valid')\n",
+        "else:\n",
+        " print('Invalid')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZwRIuNUMSWhd",
+        "outputId": "d2f4f072-b6bc-4a11-ef81-b41019b502be"
+      },
+      "execution_count": 38,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter phone number :7904931469\n",
+            "Valid\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
